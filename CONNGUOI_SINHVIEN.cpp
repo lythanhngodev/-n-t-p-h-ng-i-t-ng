@@ -3,7 +3,7 @@
 // - hàm tao, in, tinh tong diem, tinh diem trung binh
 // Yeu cau: nhap 1 mang sinh vien
 // - in mang sinh vien vua nhap
-// - in thong tin sinh vien co diem cao nhat, thap nhat
+// - in thong tin sinh vien co diem cao nhat
 #include<cstdlib>
 #include<iostream>
 #include<string.h>
