@@ -32,7 +32,7 @@ class PhanSo{
 				cout<<"1";
 			}
 			else if(tu*mau<0){
-				cout<<"-"<<tu<<"/"<<mau;
+				cout<<"-"<<abs(tu)<<"/"<<abs(mau);
 			}
 			else{
 				cout<<tu<<"/"<<mau;
@@ -51,9 +51,8 @@ class PhanSo{
 			return t;
 		}
 };
-
 main(){
-	PhanSo a(3,7),b,cong,tru;
+	PhanSo a(3,-7),b,cong,tru;
 	a.InPhanSo();
 	cout<<"\nNhap phan so b: \n";
 	b.NhapPhanSo();
